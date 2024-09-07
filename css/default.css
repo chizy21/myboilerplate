@@ -3,6 +3,14 @@
    License: none (public domain)
 */
 
+/* Default color variables go here */
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --btn-primary-background: #495fef;
+  --color-attribute: hsl(228, 45%, 44%);
+}
+
 html,
 body,
 div,
@@ -176,9 +184,9 @@ button:not(:disabled):not(.disabled) {
 
 .btn-primary,
 .btn-primary a {
-  color: #fff;
-  background-color: #495fef;
-  border-color: #495fef;
+  color: var(--color-white);
+  background-color: var(--btn-primary-background);
+  border-color: var(--btn-primary-background);
 }
 
 .round-pill {
@@ -206,5 +214,5 @@ button:not(:disabled):not(.disabled) {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-attribute);
 }
