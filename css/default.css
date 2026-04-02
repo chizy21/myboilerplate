@@ -9,6 +9,15 @@
   --color-black: #000;
   --btn-primary-background: #495fef;
   --color-attribute: hsl(228, 45%, 44%);
+  interpolate-size: allow-keywords;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  min-block-size: 100svh;
 }
 
 html,
